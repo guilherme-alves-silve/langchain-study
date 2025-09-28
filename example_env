@@ -1,6 +1,8 @@
 // Create copy to .env
 {
-    "OPENAI_API_KEY": "",
+    "OPENAI_API_KEY": "dummy",
+    "OPENAI_BASE_URL": "http://localhost:1234/v1",
+    "DEFAULT_MODEL": "openai/gpt-oss-20b",
     "PINECONE_API_KEY": "",
     "GOOGLE_API_KEY": ""
 }
