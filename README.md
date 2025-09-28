@@ -32,3 +32,4 @@ It's includes LangChain, LangGraph and LangFuse. Based on the course [LangChain 
 
 1. `uv init`
 2. `uv add $(cat requirements.txt)`
+3. `cp example_env .env`
