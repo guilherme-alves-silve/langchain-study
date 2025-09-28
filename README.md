@@ -2,7 +2,7 @@
 
 It's includes LangChain, LangGraph and LangFuse. Based on the course [LangChain e LangGraph: Crie Agentes de IA com LLMs e RAGs](https://www.udemy.com/course/lanchain)
 
-# pt-BR
+## pt-BR
 
 1. Introdução:  Apresentação do curso e configuração do ambiente.
 2. Uso de LLMs: Exemplos práticos de uso de modelos de linguagem (LLMs) com OpenAI, incluindo completion e chat.
@@ -15,7 +15,7 @@ It's includes LangChain, LangGraph and LangFuse. Based on the course [LangChain 
 9. Apresentação do LangGraph: Como o LangGraph complementa o Langchain
 10. Exemplos de Aplicações: Desenvolvimento de aplicações usando LangGraph e Langchain
 
-# en
+## en
 
 1. Introduction: Course presentation and environment setup.
 2. Using LLMs: Practical examples of using language models (LLMs) with OpenAI, including completion and chat.
@@ -27,3 +27,8 @@ It's includes LangChain, LangGraph and LangFuse. Based on the course [LangChain 
 8. Using Other Models: Practical examples with alternative models, such as Google's Gemini.
 9. Introduction to LangGraph: How LangGraph complements LangChain.
 10. Application Examples: Development of applications using LangGraph and LangChain.
+
+## Instructions
+
+1. `uv init`
+2. `uv add $(cat requirements.txt)`

@@ -6,7 +6,7 @@ from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
 
 
-with open('.env', 'r') as config_file:
+with open('../.env', 'r') as config_file:
     config = json.loads(config_file.read())
 os.environ['OPENAI_API_KEY'] = config['OPENAI_API_KEY']
 
