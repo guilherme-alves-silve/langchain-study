@@ -1,0 +1,6 @@
+// Create copy to .env
+{
+    "OPENAI_API_KEY": "",
+    "PINECONE_API_KEY": "",
+    "GOOGLE_API_KEY": ""
+}

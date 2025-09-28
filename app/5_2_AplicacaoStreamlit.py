@@ -1,13 +1,13 @@
 import os
-import yaml
+import json
 import streamlit as st
 
 from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
 
 
-with open('config.yaml', 'r') as config_file:
-    config = yaml.safe_load(config_file)
+with open('.env', 'r') as config_file:
+    config = json.loads(config_file.read())
 os.environ['OPENAI_API_KEY'] = config['OPENAI_API_KEY']
 
 openai = ChatOpenAI(model_name='gpt-3.5-turbo', temperature=0)
